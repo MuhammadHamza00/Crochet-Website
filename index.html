@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochet World</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+    <!-- <script src="script.js"></script> -->
+    <!-- navbar ----------------------------------------------->
+    <nav class="navbar">
+        <!-- logo -->
+        <div class="logo">
+            <img src="LOGO1.gif" alt="" style="height:5rem">
+
+        </div>
+        <!-- list -->
+        <div class="list">
+            <ul>
+                <li><a href="#" class="list-item">Home</a></li>
+                <li><a href="#" class="list-item"id="contact">Contact Us</a></li>
+                <li><a href="#" class="list-item"id="shop">Shop</a></li>
+
+            </ul>
+        </div>
+        <!-- search -->
+        <div class="search">
+            <input type="search" name="Search" placeholder="Search" id="searchbox">
+
+        </div>
+        </div>
+    </nav>
+    <br>
+    <hr>
+    <!-- slider---------------------------------------------------------- -->
+    <div class="slider" id="slide">
+        <input type="button" value="<" id="left"
+            onclick="document.getElementById('slide').style.backgroundImage='url(slide3.jpg)'">
+        <input type="button" value=">" id="right"
+            onclick="document.getElementById('slide').style.backgroundImage='url(slideimg.jpg)'">
+
+    </div>
+<div class="contentBox">
+    <div class="left">
+    <div class="item" id="item1"><div class="boundary"><h1>Frock</h1></div></div>
+    <div class="item" id="item2"><div class="boundary"><h1>Babies </h1></div></div>
+</div>
+<div class="center">
+    <div class="item" id="item3"><div class="boundary-cencon"><h1>Girls</h1></div></div>
+   
+</div>
+<div class="right">
+    <div class="item" id="item4"><div class="boundary"><h1>Winter</h1></div></div>
+    <div class="item" id="item5"><div class="boundary"><h1>Home</h1></div></div>
+</div>
+</div>
+
+<!-- three bgs and headings -->
+<hr>
+<div class="upper">
+    <div class="box" id="box1"><div class="words"><h1>24 Beautiful Scarf Patterns</h1></div></div>
+    <div class="box" id="box2"><div class="words"><h1>Fast Puf Pattern For Babies</h1></div></div>
+    <div class="box" id="box3"><div class="words"><h1>Unicorn Easy Crochet Pattern</h1></div></div>
+    <div class="box" id="box4"><div class="words"><h1>Beautiful Hooded Scarf Patterns</h1></div></div>
+
+</div>
+<!-- sign-up box -->
+<div class="black">
+<h1 id="heading1">BE THE FIRST</h1>
+<h3 id="heading2">Exclusive sales. New arrivals.First access to sales.</h3>
+<input type="email" id="emailblack"placeholder="Enter Email">
+<input type="button" value="Sign-up"id="btnblack">
+</div>
+<!-- footer -->
+<footer>
+    <div class="help">
+<h1>NEED HELP!</h1>
+<h4 id="phone">Phone:00 031 234 5433</h4>
+<h4 id="email">crochetworld@2021.con</h4>
+    </div>
+    <div class="service">
+<h1>SERVICES</h1>
+<h4 class="it1">Term and Conditions</h4>
+<h4 class="it1">Privacy Policy</h4>
+<h4 class="it1">Track Your Order</h4>
+
+    </div>
+    <div class="company">
+<h1>COMPANY</h1>
+<h4 class="it1">About Us</h4>
+<h4 class="it1">Careers</h4>
+<h4 class="it1">Store</h4>
+
+    </div>
+    <div class="contact">
+<h1>FOLLOW US</h1>
+<div class="social_area">
+    <ul>
+            <li><a href=""><i class="fab fa-facebook" id="fb"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter" id="twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-youtube" id="youtube"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram" id="insta"></i></a></li>
+            <li><a href=""><i class="fab fa-spotify" id="spotify"></i></a></li>
+    </ul>
+    <hr>
+</div>
+    </div>
+</footer>
+<script>
+    let btn=document.getElementById("contact").addEventListener("click",()=>{
+        window.open("contact.html");
+    })
+    let btn2=document.getElementById("shop").addEventListener("click",()=>{
+        window.open("shop.html");
+    })
+</script>
+</body>
+</html>
